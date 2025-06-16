@@ -388,13 +388,7 @@ const CategoryManagement = () => {
           >
             Xóa
           </Button>
-          <Button
-            icon={<UndoOutlined />}
-            size="small"
-            onClick={() => handleRestore(record.id)}
-          >
-            Khôi phục
-          </Button>
+          
         </Space>
       ),
     },
